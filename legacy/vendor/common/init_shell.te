@@ -106,7 +106,6 @@ set_prop(qti_init_shell, vendor_audio_prop)
 set_prop(qti_init_shell, vendor_video_prop)
 userdebug_or_eng(`
 # Needed for starting console in userdebug mode
-#set_prop(qti_init_shell, ctl_console_prop)
 set_prop(qti_init_shell, vendor_coresight_prop)
 set_prop(qti_init_shell, vendor_audio_debug_prop)
 ')
@@ -141,6 +140,7 @@ allow qti_init_shell {
     sysfs_lowmemorykiller
     sysfs_mmc_host
     sysfs_process_reclaim
+    sysfs_dm
 }:file w_file_perms;
 
 allow qti_init_shell sysfs_vmpressure:file write;
