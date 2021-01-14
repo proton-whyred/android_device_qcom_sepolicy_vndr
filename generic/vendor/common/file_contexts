@@ -119,7 +119,7 @@
 /vendor/bin/ATFWD-daemon        u:object_r:vendor_atfwd_exec:s0
 /vendor/bin/hw/android\.hardware\.vr@1\.0-service.crosshatch      u:object_r:hal_vr_default_exec:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.fpc u:object_r:hal_fingerprint_default_exec:s0
-/vendor/bin/hw/android.hardware.thermal@2.0-service.qti      u:object_r:hal_thermal_default_exec:s0
+/vendor/bin/hw/android\.hardware\.thermal@2\.0-service\.qti      u:object_r:hal_thermal_default_exec:s0
 /vendor/bin/thermal-engine      u:object_r:vendor_thermal-engine_exec:s0
 /vendor/bin/sensors.qcom        u:object_r:vendor_sensors_exec:s0
 /vendor/bin/sensors.qti         u:object_r:vendor_sensors_exec:s0
@@ -284,7 +284,7 @@
 /vendor/lib(64)?/libcdsprpc\.so             u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libsdsprpc\.so             u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libmdsprpc\.so             u:object_r:same_process_hal_file:s0
-/vendor/lib(64)?/vendor.qti.hardware.dsp@1.0\.so     u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/vendor\.qti\.hardware\.dsp@1\.0\.so     u:object_r:same_process_hal_file:s0
 /vendor/lib/dsp/fastrpc_shell_0             u:object_r:same_process_hal_file:s0
 
 # Fastcv libs
